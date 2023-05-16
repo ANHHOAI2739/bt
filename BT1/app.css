@@ -1,0 +1,48 @@
+ul {
+list-style: none;
+}
+.box {
+    border: 1px solid black;
+    width: 600px;
+    margin: auto;
+}
+.first-row {
+    padding: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+    border-bottom: 1px solid lightgray;
+}
+.second-row {
+    padding: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.input {
+    height: 30px;
+    width: 225px;
+    background-color: #EEEEEE;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+}
+#input-search {
+    width: 382px;
+}
+.button {
+    background-color: #0000FF;
+    color: white;
+    border: none;
+    height: 32px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+}
+#list-item {
+    width: 490px;
+    display: flex;
+    justify-content: space-between;
+    background-color: lightgrey;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 15px;
+}

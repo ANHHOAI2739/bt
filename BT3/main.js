@@ -32,15 +32,15 @@ console.log(square([1, 2, 3, 5]));
 // const newArr = arr.filter((item) => !valuesToRemove.includes(item));
 
 // Bài 4
-// let players = [
-//   { id: 11, name: "Messi", age: 33 },
-//   { id: 12, name: "Ronaldo", age: 34 },
-//   { id: 13, name: "Young", age: 35 },
-//   { id: 14, name: "Mane", age: 21 },
-//   { id: 15, name: "Salah", age: 24 },
-// ];
+let players = [
+  { id: 11, name: "Messi", age: 33 },
+  { id: 12, name: "Ronaldo", age: 34 },
+  { id: 13, name: "Young", age: 35 },
+  { id: 14, name: "Mane", age: 21 },
+  { id: 15, name: "Salah", age: 24 },
+];
 
-// let id = [11, 12, 13, 14, 15];
+let id = [11, 12, 13, 14, 15];
 
-// let playersModified = id.map((e, i) => ({ [e]: players[i] }));
-// console.log(playersModified);
+let playersModified = id.map((e, i) => ({ [e]: players[i] }));
+console.log(playersModified);

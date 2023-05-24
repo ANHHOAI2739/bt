@@ -1,0 +1,11 @@
+.App {
+  width: 500px;
+  display: flex;
+  justify-content: space-between;
+   margin: auto;  
+}
+.button {
+  margin-top: 20px;
+  margin-left: 938px;
+  margin-bottom: 20px;
+}

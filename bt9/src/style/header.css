@@ -1,0 +1,17 @@
+.header {
+  background-color: #dcdcdc;
+}
+.header-nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  width: 80%;
+  margin: auto;
+  line-height: 60px;
+}
+
+.login {
+  color: #9370db;
+}

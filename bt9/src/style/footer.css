@@ -1,0 +1,13 @@
+.footer {
+  background-color: #dcdcdc;
+  height: 60px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  line-height: 60px;
+}
+
+.select {
+  padding: 2px 4px 2px 4px;
+}

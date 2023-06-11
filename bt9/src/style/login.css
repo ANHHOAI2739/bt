@@ -1,0 +1,32 @@
+.container {
+  border: 1px solid dimgray;
+  border-radius: 10px;
+  width: 30%;
+  height: 200px;
+  margin: auto;
+  margin-top: 15%;
+}
+
+.title {
+  border-bottom: 1px solid dimgray;
+  background-color: #a9a9a9;
+  height: 45px;
+  line-height: 45px;
+  border-top-left-radius: 9px;
+  border-top-right-radius: 9px;
+  font-size: 22px;
+}
+.main-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 135px;
+}
+.button {
+  padding: 7px 7px 7px 7px;
+  background-color: #4169e1;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 17px;
+}
